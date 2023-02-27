@@ -1,0 +1,14 @@
+file1
+ file2
+ file3
+file4
+  file5
+{file1=0, file2=1, file3=1, file4=0, file5=2}
+{file1=Null, file2=file1, file3=file1, file4=Null, file5=file3}
+file    parentfile
+----------------
+file1   Null
+file2   file1
+file3   file1
+file4   Null
+file5   file3
